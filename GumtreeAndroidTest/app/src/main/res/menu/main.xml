@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_favourite"
+        android:checkable="true"
+        android:icon="@drawable/ic_no_bookmark"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+</menu>
